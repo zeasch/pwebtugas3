@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warung</title>
+    <style type="text/css">
+        header, section, footer, aside, nav, article, figure, figcaption{
+            display: block;}
+        body {
+            color: #646464;
+            background-color: #f9f8f6;
+            background-image: url("background.png");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Urbanist', sans-serif;
+            line-height: 1.4cm;
+            margin: 0px;
+        }
+        .wrapper {
+            width: 1000px;
+            margin: 20px auto 20px auto;
+            border: 0px solid #000000;
+            background-color: #ffffff;
+        }
+        header {
+            height: 175px;
+            background-image: url("header.png");
+            vertical-align: middle;
+            box-sizing: border-box;
+        }
+        h1 {
+            width: 940px;
+            height: 130px;
+            margin: 0px;
+            padding-top: 0px;
+        }
+        nav, footer {
+            clear: both;
+            color: #ffffff;
+            background-color: #ffbbbb;
+            height: 45px;
+        }
+        nav ul {
+            margin: 0px;
+            padding: 0px 5px 5px 30px;
+        }
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+        nav li a {
+            color: #ffffff;
+        }
+        nav li a:hover, nav li a.current {
+            color: #000000;
+        }
+        section.courses {
+            float: left;
+            width: 700px;
+            border-right: 2px solid #eeeeee;
+        }
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;
+        }
+        hgroup {
+            margin-top: 0px;
+        }
+        figure {
+            float: left;
+            width: 290px;
+            height: 350px;
+            padding: 5px;
+            margin: 20px;
+            border: 0px solid #000000;
+        }
+        figcaption {
+            font-size: 85%;
+            text-align: center;
+            font-style: italic;
+        }
+        aside {
+            width: 230px;
+            float: left;
+            padding: 0px 0px 0px 20px;
+        }
+        aside section a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid #eeeeee;
+        }
+        aside section a:hover {
+            color: #985d6a;
+            background-color: #efefef;
+        }
+        a {
+            color: #de6581;
+            text-decoration: none;
+        }
+        h1, h2, h3 {
+            font-weight: normal;
+        }
+        h2 {
+            margin: 10px 0px 5px 0px;
+            padding: 0px;
+        }
+        h3 {
+            margin: 0px 0px 10px 0px;
+            color: #de6581;
+        }
+        aside h2 {
+            padding: 30px 0px 10px 0px;
+            color: #de6581;
+        }
+        footer {
+            font-size: 80%;
+            padding: 0px 0px 0px 20px;
+        }
+
+    </style>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+                <h1 style="text-align: center; line-height: 125px;">Warung Tegal</h1>
+            <nav>
+                <ul>
+                    <li><a href="" class="current">Beranda</a></li>
+                    <li><a href="">Daftar Masakan</a></li>
+                    <li><a href="">Katering</a></li>
+                    <li><a href="">Tentang</a></li>
+                    <li><a href="">Kontak</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="courses">
+            <article>
+                <figure>
+                    <img style="width: 290px; height: auto;" src="soto.jpg" alt="soto" />
+                    <figcaption style="vertical-align: top;">Soto Indonesia</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Soto Ayam</h2>
+                    <h3>Makanan Berkuah</h3>
+                </hgroup>
+                <p>Soto ayam adalah makanan khas Indonesia yang berupa
+                    sejenis sup ayam dengan kuah yang berwarna kekuningan.
+                </p>
+            </article>
+            <article>
+                <figure>
+                    <img style="width: 290px; height: auto;" src="pecel.jpg" alt="pecel" />
+                    <figcaption>Pecel Indonesia</figcaption>
+                </figure>
+                <hgroup>
+                    <h2>Masakan Pecel</h2>
+                    <h3>Makanan dengan bumbu kacang</h3>
+                </hgroup>
+                <p>Pecel adalah makanan yang menggunakan bumbu sambal
+                    kacang sebagai bahan utamanya yang dicampur dengan aneka
+                    jenis sayuran.
+                </p>
+            </article>
+        </section>
+        <aside>
+            <section class="popular-recipes">
+                <h2>Masakan Populer</h2>
+                <a href="">Sayur Sop</a>
+                <a href="">Sayur Asem</a>
+                <a href="">Sayur Lodeh</a>
+                <a href="">Sayur Bayam</a>
+            </section>
+            <section class="contact-details">
+                <h2>Kontak</h2>
+                <p>Warung Tegal<br />
+                di seluruh Indonesia</p>
+            </section>
+        </aside>
+        <footer>
+            &copy; 2015 Warung Tegal
+        </footer>
+    </div>
+</body>
+</html>
